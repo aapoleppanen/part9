@@ -1,0 +1,27 @@
+post http://localhost:3001/api/patients/d2773336-f723-11e9-8f0b-362b9e155667/entries
+Content-Type: application/json
+
+{
+    "description": "description",
+    "date": "2021-8-24",
+    "type": "OccupationalHealthcare",
+    "specialist": "specialist",
+    "diagnosisCodes": [ "S62.5" ],
+    "employerName": "employer",
+    "sickLeave": {
+        "startDate": "2021-8-25",
+        "endDate": "2021-8-29"
+    }
+}
+
+# {
+#     "description": "description",
+#     "date": "2021-8-24",
+#     "type": "Hospital",
+#     "specialist": "specialist",
+#     "diagnosisCodes": [ "S62.5" ],
+#     "discharge": {
+#         "date": "2021-8-25",
+#         "criteria": "criteria"
+#     }
+# }
